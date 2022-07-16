@@ -1,0 +1,26 @@
+[
+  {
+    "type": "item_group",
+    "id": "book_school",
+    "subtype": "collection",
+    "items": [ { "item": "book_hunterarms", "prob": 10 } ]
+  },
+  {
+    "id": "mansion_books",
+    "type": "item_group",
+    "subtype": "distribution",
+    "items": [ { "item": "book_hunterarms", "prob": 10 } ]
+  },
+  {
+    "id": "exotic_books",
+    "type": "item_group",
+    "subtype": "distribution",
+    "items": [ { "item": "book_hunterarms", "prob": 10 } ]
+  },
+  {
+    "id": "SUS_historical_manufacturing_bookcase",
+    "type": "item_group",
+    "subtype": "collection",
+    "items": [ { "item": "book_hunterarms", "prob": 10 } ]
+  }
+]

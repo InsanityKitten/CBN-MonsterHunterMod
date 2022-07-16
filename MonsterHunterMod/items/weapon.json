@@ -1,0 +1,22 @@
+[
+  {
+    "id": "rathalos_longsword",
+    "type": "GENERIC",
+    "category": "weapons",
+    "symbol": "/",
+    "color": "light_red",
+    "name": { "str": "Rathalos Longsword" },
+    "description": "A wicked incredibly long longsword made out of parts of a Rathalos, despite it's length it's incredibly light and easy to manuever. It feels warm to the touch.",
+    "price": 250000,
+    "price_postapoc": 10000,
+    "material": "rathalos_scale",
+    "flags": [ "DURABLE_MELEE", "SHEATH_SWORD", "ALWAYS_TWOHAND", "REACH_ATTACK" ],
+    "techniques": [ "WBLOCK_1", "BRUTAL", "SWEEP", "RAPID", "WIDE" ],
+    "weight": "2000 g",
+    "volume": "4000 ml",
+    "bashing": 10,
+    "cutting": 50,
+    "to_hit": 3,
+    "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 8 ] ]
+  }
+]

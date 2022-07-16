@@ -1,0 +1,17 @@
+[  
+    {
+    "type": "GENERIC",
+    "id": "rathalos_parts",
+    "symbol": "r",
+    "color": "red",
+    "name": { "str": "rathalos part" },
+    "description": "Assorted bits taken from a Rathalos. They still feel warm to the touch. These could make some fine armor and weapons",
+    "price": "100 USD",
+    "price_postapoc": "100 USD",
+    "material": [ "rathalos_scale" ],
+    "flags": [ "NO_SALVAGE" ],
+    "weight": "114 g",
+    "volume": "250 ml",
+    "category": "spare_parts"
+  }
+]

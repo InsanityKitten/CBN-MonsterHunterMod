@@ -1,0 +1,12 @@
+[
+  {
+    "type": "monstergroup",
+    "name": "GROUP_FOREST",
+    "default": "mon_null",
+    "is_animal": true,
+    "monsters": [ 
+{ "monster": "mon_rathalos", "freq": 10, "cost_multiplier": 0 },
+{ "monster": "mon_rathian", "freq": 10, "cost_multiplier": 0 }
+   ]
+  }
+]

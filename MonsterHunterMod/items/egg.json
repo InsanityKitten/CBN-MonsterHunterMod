@@ -1,0 +1,39 @@
+[
+  {
+    "type": "COMESTIBLE",
+    "id": "egg_monster",
+    "name": "monster egg",
+    "weight": "500 g",
+    "color": "green",
+    "spoils_in": "4 days",
+    "comestible_type": "FOOD",
+    "symbol": "o",
+    "quench": 4,
+    "healthy": 1,
+    "calories": 113,
+    "description": "Large torso sized egg laid by a monster.",
+    "price": 500,
+    "material": [ "egg" ],
+    "volume": "1000 ml",
+    "stack_size": 4,
+    "fun": -6,
+    "rot_spawn": "GROUP_EGG_WYVERN",
+    "rot_spawn_chance": 100
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "egg_rathalos",
+    "name": "Rathalos egg",
+    "description": "A large torso sized egg that appears to be red with blue claw like stripes all around it.",
+    "copy-from": "egg_monster",
+    "rot_spawn": "GROUP_EGG_RATHALOS"
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "egg_rathian",
+    "name": "Rathian egg",
+    "description": "A large torso sized egg that appears to be yellow with green claw like stripes all around it.",
+    "copy-from": "egg_monster",
+    "rot_spawn": "GROUP_EGG_RATHIAN"
+  }
+]

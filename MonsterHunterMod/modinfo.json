@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "MonsterHunterMod",
+    "name": "Monster Hunter Monsters",
+    "authors": [ "InsanityCat" ],
+    "maintainers": [ "InsanityCat" ],
+    "description": "Adds various Monster Hunter monsters to hunt/befriend and to make armor and weapons out of!",
+    "category": "creatures",
+    "dependencies": [ "dda" ]
+  }
+]

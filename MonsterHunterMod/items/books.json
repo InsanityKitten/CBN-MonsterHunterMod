@@ -1,0 +1,21 @@
+[
+  {
+    "id": "book_hunterarms",
+    "type": "BOOK",
+    "name": { "str": "Wyvernian Smithing", "str_pl": "copies of Wyvernian Smithing" },
+    "description": "A thick letherbound book containing a lot of technical details and fancy drawings about smithing gear for Monster Hunters and Riders",
+    "weight": "654 g",
+    "volume": "1250 ml",
+    "price": 6400,
+    "price_postapoc": 3000,
+    "material": [ "paper" ],
+    "symbol": "?",
+    "color": "blue",
+    "skill": "fabrication",
+    "required_level": 5,
+    "max_level": 10,
+    "intelligence": 9,
+    "time": "60 m",
+    "fun": 2
+  }
+]

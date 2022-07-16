@@ -1,0 +1,22 @@
+[
+  {
+    "id": "rathalos_armor",
+    "type": "ARMOR",
+    "name": { "str": "Rathalos armor" },
+    "description": "A complete set of armor made from parts of a Rathalos",
+    "weight": "30000 g",
+    "volume": "20 L",
+    "price": 400000,
+    "price_postapoc": 9000,
+    "material": [ "rathalos_scale" ],
+    "symbol": "[",
+    "color": "light_red",
+    "covers": [ "head", "torso", "arms", "hands", "legs", "feet" ],
+    "coverage": 100,
+    "encumbrance": 35,
+    "warmth": 30,
+    "material_thickness": 3,
+    "environmental_protection": 10,
+    "flags": [ "VARSIZE", "WATERPROOF", "RAINPROOF", "STURDY", "OUTER" ]
+  }
+]

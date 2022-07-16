@@ -1,0 +1,13 @@
+[
+  {
+    "id": "rathalos_harvest",
+    "type": "harvest",
+    "entries": [
+      { "drop": "meat", "type": "flesh", "mass_ratio": 0.1 },
+      { "drop": "fat", "type": "flesh", "mass_ratio": 0.1 },
+      { "drop": "bone", "type": "bone", "mass_ratio": 0.1 },
+      { "drop": "sinew", "type": "bone", "mass_ratio": 0.005 },
+      { "drop": "rathalos_parts", "type": "skin", "mass_ratio": 0.1 }
+    ]
+  }
+]

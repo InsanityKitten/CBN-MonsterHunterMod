@@ -1,0 +1,23 @@
+[
+  {
+    "name": "GROUP_EGG_WYVERN",
+    "type": "monstergroup",
+    "default": "mon_rathalos",
+    "monsters": [ 
+	{ "monster": "mon_rathian", "freq": 10, "cost_multiplier": 0 }, 
+	{ "monster": "mon_rathalos", "freq": 10, "cost_multiplier": 0 } 
+          ]
+  },
+  {
+    "name": "GROUP_EGG_RATHALOS",
+    "type": "monstergroup",
+    "default": "mon_rathalos",
+    "monsters": [ { "monster": "mon_rathalos", "freq": 100, "cost_multiplier": 0 } ]
+  },
+  {
+    "name": "GROUP_EGG_RATHIAN",
+    "type": "monstergroup",
+    "default": "mon_rathian",
+    "monsters": [ { "monster": "mon_rathian", "freq": 100, "cost_multiplier": 0 } ]
+  }
+]
