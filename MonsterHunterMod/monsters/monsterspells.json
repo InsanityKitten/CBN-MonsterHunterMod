@@ -1,0 +1,18 @@
+[
+  {
+    "type": "SPELL",
+    "id": "rath_fire",
+    "name": "Rath Fire",
+    "description": "This is a monster only spell.",
+    "valid_targets": [ "hostile", "ground", "ally", "self" ],
+    "min_damage": 15,
+    "max_damage": 15,
+    "min_range": 12,
+    "max_range": 12,
+    "min_aoe": 3,
+    "max_aoe": 3,
+    "base_casting_time": 120,
+    "effect": "projectile_attack",
+    "damage_type": "fire"
+  }
+]
