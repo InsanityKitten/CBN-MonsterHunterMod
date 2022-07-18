@@ -1,4 +1,34 @@
-[  
+[
+  {
+    "id": "monsterarms_kit",
+    "type": "TOOL",
+    "symbol": ";",
+    "color": "light_gray",
+    "name": { "str": "Wyverian Kit" },
+    "description": "A small bag of tools that are specially treated to work with monster parts for general repair. Requires thread for patching.",
+    "price": 1000,
+    "price_postapoc": 1000,
+    "material": [ "leather", "steel" ],
+    "weight": "1000 g",
+    "volume": "500 ml",
+    "ammo": "thread",
+    "sub": "sewing_kit",
+    "initial_charges": 100,
+    "max_charges": 400,
+    "charges_per_use": 1,
+    "use_action": [
+      {
+        "type": "repair_item",
+        "item_action_type": "repair_fabric",
+        "materials": [ "rathalos_scale" ],
+        "skill": "fabrication",
+        "tool_quality": 3,
+        "cost_scaling": 0.1,
+        "move_cost": 800
+      }
+     ],
+    "flags": [ "ALLOWS_REMOTE_USE" ]
+  },  
     {
     "type": "GENERIC",
     "id": "rathalos_parts",

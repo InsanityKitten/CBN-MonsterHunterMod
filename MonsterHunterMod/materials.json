@@ -16,6 +16,7 @@
     "fire_resist": 80,
     "elec_resist": 10,
     "chip_resist": 10,
+    "repaired_with": "rathalos_parts",
     "dmg_adj": [ "scratched", "cut", "shredded", "tattered" ],
     "bash_dmg_verb": "ripped",
     "cut_dmg_verb": "sliced"

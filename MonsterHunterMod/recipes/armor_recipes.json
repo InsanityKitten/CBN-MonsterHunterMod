@@ -11,13 +11,14 @@
     "autolearn": true,
     "reversible": true,
     "book_learn": [ [ "book_hunterarms", 8 ] ],
-    "using": [ [ "steel_standard", 3 ] ],
     "tools": [
       [ [ "tongs", -1 ] ],
       [ [ "chisel", -1 ] ],
       [ [ "anvil", -1 ] ],
       [ [ "forge", 750 ], [ "char_forge", 120 ], [ "oxy_torch", 120 ] ] ],
-    "components": [ [ [ "rathalos_parts", 35 ], [ "leather", 15 ] ] 
+    "components": [
+      [ [ "rathalos_parts", 35 ] ],
+      [ [ "fur", 20 ], [ "leather", 20 ] ]
     ]
   }
 ]

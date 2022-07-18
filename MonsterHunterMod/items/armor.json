@@ -1,6 +1,7 @@
 [
   {
     "id": "rathalos_armor",
+    "repairs_like": "cuirass_lightplate",
     "type": "ARMOR",
     "name": { "str": "Rathalos armor" },
     "description": "A complete set of armor made from parts of a Rathalos",
@@ -13,8 +14,8 @@
     "color": "light_red",
     "covers": [ "head", "torso", "arms", "hands", "legs", "feet" ],
     "coverage": 100,
-    "encumbrance": 35,
-    "warmth": 30,
+    "encumbrance": 30,
+    "warmth": 20,
     "material_thickness": 3,
     "environmental_protection": 10,
     "flags": [ "VARSIZE", "WATERPROOF", "RAINPROOF", "STURDY", "OUTER" ]

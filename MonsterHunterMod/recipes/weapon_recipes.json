@@ -1,6 +1,27 @@
 [
   {
     "type": "recipe",
+    "result": "monsterarms_kit",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "skills_required": [ "fabrication", 5 ],
+    "time": 10000,
+    "book_learn": [ [ "book_hunterarms", 5 ] ],
+    "using": [ [ "steel_standard", 1 ] ],
+    "tools": [
+      [ [ "tongs", -1 ] ],
+      [ [ "chisel", -1 ] ],
+      [ [ "anvil", -1 ] ],
+      [ [ "forge", 100 ], [ "char_forge", 20 ], [ "oxy_torch", 20 ] ] ],
+    "components": [
+      [ [ "stick", 1 ] ],
+      [ [ "fur", 2 ], [ "leather", 2 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
     "result": "rathalos_longsword",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_CUTTING",
@@ -15,7 +36,9 @@
       [ [ "chisel", -1 ] ],
       [ [ "anvil", -1 ] ],
       [ [ "forge", 500 ], [ "char_forge", 90 ], [ "oxy_torch", 90 ] ] ],
-    "components": [ [ [ "rathalos_parts", 15 ], [ "stick", 2 ], [ "leather", 3 ] ] 
+    "components": [
+      [ [ "rathalos_parts", 15 ] ],
+      [ [ "fur", 5 ], [ "leather", 5 ] ]
     ]
   }
 ]

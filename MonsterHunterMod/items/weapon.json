@@ -9,7 +9,7 @@
     "description": "A wicked incredibly long longsword made out of parts of a Rathalos, despite it's length it's incredibly light and easy to manuever. The heart of a Rathalos is in this blade.",
     "price": 250000,
     "price_postapoc": 10000,
-    "material": "rathalos_scale",
+    "material": [ "rathalos_scale", "steel" ],
     "flags": [ "DURABLE_MELEE", "SHEATH_SWORD", "ALWAYS_TWOHAND", "REACH_ATTACK" ],
     "techniques": [ "WBLOCK_1", "BRUTAL", "SWEEP", "RAPID", "WIDE" ],
     "weight": "2000 g",
