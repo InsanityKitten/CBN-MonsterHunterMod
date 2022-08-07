@@ -43,5 +43,20 @@
     "weight": "114 g",
     "volume": "250 ml",
     "category": "spare_parts"
+  },
+    {
+    "type": "GENERIC",
+    "id": "rathian_parts",
+    "symbol": "r",
+    "color": "red",
+    "name": { "str": "rathian part" },
+    "description": "Assorted bits taken from a Rathian. Potent venom still present. These could make some fine armor and weapons",
+    "price": "100 USD",
+    "price_postapoc": "100 USD",
+    "material": [ "rathian_scale" ],
+    "flags": [ "NO_SALVAGE" ],
+    "weight": "114 g",
+    "volume": "250 ml",
+    "category": "spare_parts"
   }
 ]

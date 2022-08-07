@@ -1,8 +1,8 @@
 [
   {
-    "id": "rathalos_melee_effect",
+    "id": "rathalos_effect",
     "type": "SPELL",
-    "name": { "str": "Rathalos Melee Effect" },
+    "name": { "str": "Rathalos Effect" },
     "description": "Spell casted by an item. If you're seeing this, then read this one instead:\n'Item emits heat like Rathalos fire'",
     "flags": [ "SILENT", "NO_HANDS", "NO_LEGS", "RANDOM_DAMAGE" ],
     "affected_body_parts": [ "head", "arm_l", "arm_r", "torso", "leg_l", "leg_r" ],
@@ -15,5 +15,22 @@
     "min_aoe": 3,
     "max_aoe": 3,
     "damage_type": "fire"
+  },
+  {
+    "id": "rathian_effect",
+    "type": "SPELL",
+    "name": { "str": "Rathian Effect" },
+    "description": "Spell casted by an item. If you're seeing this, then read this one instead:\n'Item emits heat like Rathalos fire'",
+    "flags": [ "SILENT", "NO_HANDS", "NO_LEGS", "RANDOM_DAMAGE" ],
+    "affected_body_parts": [ "head", "arm_l", "arm_r", "torso", "leg_l", "leg_r" ],
+    "valid_targets": [ "hostile" ],
+    "effect": "projectile_attack",
+    "min_damage": 24,
+    "max_damage": 25,
+    "min_range": 3,
+    "max_range": 5,
+    "min_aoe": 3,
+    "max_aoe": 3,
+    "damage_type": "bio"
   }
 ]

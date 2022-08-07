@@ -54,7 +54,7 @@
       {
         "type": "bite",
         "cooldown": 5,
-        "damage_max_instance": [ { "damage_type": "stab", "amount": 15, "armor_multiplier": 0.5 } ]
+        "damage_max_instance": [ { "damage_type": "stab", "amount": 25, "armor_multiplier": 0.5 } ]
       }
     ],
     "death_function": [ "NORMAL" ],
@@ -81,6 +81,26 @@
     "name": { "str": "Rathian", "str_pl": "Rathian" },
     "description": "Fire-breathing female wyverns, also known as the 'Queens of the Land'. With powerful legs and poison-secreting tails, they hunt mainly on the ground. Sometimes seen preying as a couple, Rathians and Rathalos cooperate well.",
     "color": "light_red",
-    "reproduction": { "baby_egg": "egg_rathian", "baby_count": 2, "baby_timer": 50 }
+    "harvest": "rathian_harvest",
+    "reproduction": { "baby_egg": "egg_rathian", "baby_count": 2, "baby_timer": 50 },
+"special_attacks": [
+      { "type": "spell", "spell_data": { "id": "rath_poison" }, "cooldown": 30 },
+      {
+        "id": "scratch",
+        "cooldown": 30,
+        "damage_max_instance": [ { "damage_type": "cut", "amount": 25, "armor_multiplier": 0.75 } ],
+        "body_parts": [ [ "leg_l", 5 ], [ "leg_r", 5 ], [ "head", 3 ], [ "arm_l", 5 ], [ "arm_r", 5 ], [ "torso", 7 ] ],
+        "effects": [ { "id": "downed", "duration": 3 } ],
+        "hit_dmg_u": "The %1$s slashes at you with a wicked claw!",
+        "hit_dmg_npc": "The %1$s slashes at <npcname> with a wicked claw!",
+        "no_dmg_msg_u": "The %1$s tries to slash at you, but fails to penetrate your armor!",
+        "no_dmg_msg_npc": "The %1$s tries to slash <npcname>, but fails to penetrate their armor!"
+      },
+      {
+        "type": "bite",
+        "cooldown": 5,
+        "damage_max_instance": [ { "damage_type": "stab", "amount": 25, "armor_multiplier": 0.5 } ]
+      } 
+	]
   }
 ]
