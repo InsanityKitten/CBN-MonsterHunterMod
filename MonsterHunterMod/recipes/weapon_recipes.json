@@ -40,5 +40,113 @@
       [ [ "rathalos_parts", 15 ] ],
       [ [ "fur", 5 ], [ "leather", 5 ] ]
     ]
+  },
+  {
+    "type": "recipe",
+    "result": "rathalos_greatsword",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_CUTTING",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "skills_required": [ "fabrication", 8 ],
+    "time": 30000,
+    "book_learn": [ [ "book_hunterarms", 8 ] ],
+    "using": [ [ "steel_standard", 5 ] ],
+    "tools": [
+      [ [ "tongs", -1 ] ],
+      [ [ "chisel", -1 ] ],
+      [ [ "anvil", -1 ] ],
+      [ [ "forge", 1000 ], [ "char_forge", 180 ], [ "oxy_torch", 180 ] ] ],
+    "components": [
+      [ [ "rathalos_parts", 20 ] ],
+      [ [ "fur", 5 ], [ "leather", 5 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "rathalos_lance",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_PEIRCING",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "skills_required": [ "fabrication", 8 ],
+    "time": 30000,
+    "book_learn": [ [ "book_hunterarms", 8 ] ],
+    "using": [ [ "steel_standard", 3 ] ],
+    "tools": [
+      [ [ "tongs", -1 ] ],
+      [ [ "chisel", -1 ] ],
+      [ [ "anvil", -1 ] ],
+      [ [ "forge", 500 ], [ "char_forge", 90 ], [ "oxy_torch", 90 ] ] ],
+    "components": [
+      [ [ "rathalos_parts", 15 ] ],
+      [ [ "fur", 5 ], [ "leather", 5 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "rathalos_bow",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "skills_required": [ "fabrication", 8 ],
+    "time": 30000,
+    "book_learn": [ [ "book_hunterarms", 8 ] ],
+    "using": [ [ "steel_standard", 3 ] ],
+    "tools": [
+      [ [ "tongs", -1 ] ],
+      [ [ "chisel", -1 ] ],
+      [ [ "anvil", -1 ] ],
+      [ [ "forge", 500 ], [ "char_forge", 90 ], [ "oxy_torch", 90 ] ] ],
+    "components": [
+      [ [ "rathalos_parts", 15 ] ],
+      [ [ "fur", 5 ], [ "leather", 5 ] ],
+      [ [ "cordage_superior", 5, "LIST" ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "rathalos_lightbowgun",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "skills_required": [ "fabrication", 8 ],
+    "time": 30000,
+    "book_learn": [ [ "book_hunterarms", 8 ] ],
+    "using": [ [ "steel_standard", 3 ] ],
+    "tools": [
+      [ [ "tongs", -1 ] ],
+      [ [ "chisel", -1 ] ],
+      [ [ "anvil", -1 ] ],
+      [ [ "forge", 500 ], [ "char_forge", 90 ], [ "oxy_torch", 90 ] ] ],
+    "components": [
+      [ [ "rathalos_parts", 20 ] ],
+      [ [ "fur", 5 ], [ "leather", 5 ] ],
+      [ [ "cordage_superior", 5, "LIST" ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "rathalos_heavybowgun",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "skills_required": [ "fabrication", 8 ],
+    "time": 30000,
+    "book_learn": [ [ "book_hunterarms", 8 ] ],
+    "using": [ [ "steel_standard", 5 ] ],
+    "tools": [
+      [ [ "tongs", -1 ] ],
+      [ [ "chisel", -1 ] ],
+      [ [ "anvil", -1 ] ],
+      [ [ "forge", 500 ], [ "char_forge", 90 ], [ "oxy_torch", 90 ] ] ],
+    "components": [
+      [ [ "rathalos_parts", 20 ] ],
+      [ [ "fur", 5 ], [ "leather", 5 ] ],
+      [ [ "cordage_superior", 5, "LIST" ] ]
+    ]
   }
 ]

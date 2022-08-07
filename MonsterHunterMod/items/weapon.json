@@ -7,11 +7,11 @@
     "color": "light_red",
     "name": { "str": "Rathalos Longsword" },
     "description": "A wicked incredibly long longsword made out of parts of a Rathalos, despite it's length it's incredibly light and easy to manuever. The heart of a Rathalos is in this blade.",
-    "price": 250000,
+    "price": 25000,
     "price_postapoc": 10000,
     "material": [ "rathalos_scale", "steel" ],
     "flags": [ "DURABLE_MELEE", "SHEATH_SWORD", "ALWAYS_TWOHAND", "REACH_ATTACK" ],
-    "techniques": [ "WBLOCK_1", "BRUTAL", "SWEEP", "RAPID", "WIDE" ],
+    "techniques": [ "WBLOCK_1", "BRUTAL", "SWEEP", "RAPID", "IMPALE" ],
     "weight": "2000 g",
     "volume": "4000 ml",
     "bashing": 10,
@@ -32,6 +32,203 @@
       ]
     },
     "to_hit": 3,
-    "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 8 ] ]
+    "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 15 ] ]
+  },
+  {
+    "id": "rathalos_greatsword",
+    "type": "GENERIC",
+    "category": "weapons",
+    "symbol": "/",
+    "color": "light_red",
+    "name": { "str": "Rathalos Greatsword" },
+    "description": "A huge blade with the heart of a Rathalos in it! This heavy greatsword is bound to be incredibly unweildy but any hit that connects is bound to send even the monsters realing.",
+    "price": 25000,
+    "price_postapoc": 10000,
+    "material": [ "rathalos_scale", "steel" ],
+    "flags": [ "DURABLE_MELEE", "SHEATH_SWORD", "ALWAYS_TWOHAND", "REACH_ATTACK" ],
+    "techniques": [ "WBLOCK_3", "BRUTAL", "SWEEP", "WIDE" ],
+    "weight": "10000 g",
+    "volume": "5000 ml",
+    "bashing": 20,
+    "cutting": 80,
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WIELD",
+          "condition": "ALWAYS",
+          "hit_you_effect": [
+            {
+              "id": "rathalos_melee_effect",
+              "message": "As you strike with the blade, you feel the heat burn %2$s!",
+              "npc_message": "As %1$s strikes with the blade you see the heat burn %2$s!"
+            }
+          ]
+        }
+      ]
+    },
+    "to_hit": 3,
+    "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 15 ] ]
+  },
+  {
+    "id": "rathalos_lance",
+    "type": "GENERIC",
+    "category": "weapons",
+    "symbol": "/",
+    "color": "light_red",
+    "name": { "str": "Rathalos Lance" },
+    "description": "A proper lance with the heart of a rathalos in it! This huge conical shaped weapon can be used to stab through the toughest creature, it's weight gives it substantial smashing power too.",
+    "price": 25000,
+    "price_postapoc": 10000,
+    "material": [ "rathalos_scale", "steel" ],
+    "flags": [ "SPEAR", "DURABLE_MELEE", "SHEATH_SPEAR", "ALWAYS_TWOHAND", "REACH_ATTACK" ],
+    "techniques": [ "WBLOCK_1", "BRUTAL", "IMPALE" ],
+    "weight": "4000 g",
+    "volume": "7500 ml",
+    "bashing": 35,
+    "peirce": 35,
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WIELD",
+          "condition": "ALWAYS",
+          "hit_you_effect": [
+            {
+              "id": "rathalos_melee_effect",
+              "message": "As you strike with the blade, you feel the heat burn %2$s!",
+              "npc_message": "As %1$s strikes with the blade you see the heat burn %2$s!"
+            }
+          ]
+        }
+      ]
+    },
+    "to_hit": 3
+  },
+  {
+    "id": "rathalos_bow",
+    "looks_like": "longbow",
+    "type": "GUN",
+    "symbol": "(",
+    "color": "red",
+    "name": { "str": "Rathalos Greatbow" },
+    "description": "An extremely large and powerful bow with the heart of a rathalos in it! It has enormous limbs and a thick string to take an immense amount of energy.  Takes incredible strength to draw.",
+    "price": 160000,
+    "price_postapoc": 13000,
+    "material": [ "steel", "rathalos_scale" ],
+    "flags": [ "FIRE_TWOHAND", "RELOAD_AND_SHOOT", "STR_DRAW" ],
+    "skill": "archery",
+    "min_strength": 12,
+    "ammo": "arrow",
+    "weight": "2000 g",
+    "volume": "4 L",
+    "bashing": 15,
+    "reload_noise_volume": 4,
+    "loudness": 20,
+    "durability": 8,
+    "ranged_damage": { "damage_type": "stab", "amount": 50 },
+    "range": 26,
+    "dispersion": 1000,
+    "clip_size": 1,
+    "valid_mod_locations": [ [ "underbarrel", 1 ], [ "sights", 1 ], [ "accessories", 2 ], [ "stabilizer", 1 ], [ "dampening", 1 ] ],
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WIELD",
+          "condition": "ALWAYS",
+          "hit_you_effect": [
+            {
+              "id": "rathalos_melee_effect",
+              "message": "As you strike with the blade, you feel the heat burn %2$s!",
+              "npc_message": "As %1$s strikes with the blade you see the heat burn %2$s!"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "rathalos_lightbowgun",
+    "looks_like": "crossbow",
+    "type": "GUN",
+    "reload_noise_volume": 10,
+    "symbol": "(",
+    "color": "red",
+    "name": { "str": "Rathalos Lightbowgun" },
+    "description": "A strange gun-like crossbow with the heart of a rathalos in it. You can load multiple crossbow bolts into it.",
+    "price": 324000,
+    "price_postapoc": 16000,
+    "material": [ "steel", "rathalos_scale" ],
+    "flags": [ "FIRE_TWOHAND", "CROSSBOW" ],
+    "skill": "rifle",
+    "ammo": "bolt",
+    "weight": "4000 g",
+    "volume": "5000 ml",
+    "bashing": 15,
+    "to_hit": 1,
+    "ranged_damage": { "damage_type": "stab", "amount": 30 },
+    "range": 8,
+    "dispersion": 500,
+    "recoil": 30,
+    "durability": 7,
+    "clip_size": 4,
+    "reload": 500,
+    "valid_mod_locations": [ [ "dampening", 1 ] ],
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WIELD",
+          "condition": "ALWAYS",
+          "hit_you_effect": [
+            {
+              "id": "rathalos_melee_effect",
+              "message": "As you strike with the blade, you feel the heat burn %2$s!",
+              "npc_message": "As %1$s strikes with the blade you see the heat burn %2$s!"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "rathalos_heavybowgun",
+    "looks_like": "crossbow",
+    "type": "GUN",
+    "reload_noise_volume": 10,
+    "symbol": "(",
+    "color": "red",
+    "name": { "str": "Rathalos Heavybowgun" },
+    "description": "A strange heavy gun-like crossbow with the heart of a rathalos in it. You can load multiple crossbow bolts into it.",
+    "price": 324000,
+    "price_postapoc": 20000,
+    "material": [ "steel", "rathalos_scale" ],
+    "flags": [ "FIRE_TWOHAND", "CROSSBOW" ],
+    "skill": "rifle",
+    "ammo": "bolt",
+    "weight": "6000 g",
+    "volume": "7500 ml",
+    "bashing": 20,
+    "to_hit": 1,
+    "ranged_damage": { "damage_type": "stab", "amount": 50 },
+    "range": 10,
+    "dispersion": 500,
+    "recoil": 30,
+    "durability": 8,
+    "clip_size": 4,
+    "reload": 800,
+    "valid_mod_locations": [ [ "dampening", 1 ] ],
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WIELD",
+          "condition": "ALWAYS",
+          "hit_you_effect": [
+            {
+              "id": "rathalos_melee_effect",
+              "message": "As you strike with the blade, you feel the heat burn %2$s!",
+              "npc_message": "As %1$s strikes with the blade you see the heat burn %2$s!"
+            }
+          ]
+        }
+      ]
+    }
   }
 ]
